@@ -1,0 +1,19 @@
+{
+  "env": {
+    "node": true // 支持cjs中的require的node语法
+  },
+  "extends": ["eslint:recommended", "plugin:vue/vue3-recommended", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "vue/multi-word-component-names": [
+      "error",
+      {
+        // Component name "index" should always be multi-word
+        // 在此忽略index.vue的组件名，就不会有这个报错啦！
+        // "ignores": ["index"] 
+      }
+    ],
+    "no-debugger": "warn"
+  }
+}

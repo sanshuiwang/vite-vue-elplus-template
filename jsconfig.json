@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "types": ["element-plus/global"] // 使用 Volar，通过 compilerOptions.type 指定全局组件类型
+  },
+  "exclude": ["node_modules", "/public/*"]
+}
