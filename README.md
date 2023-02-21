@@ -52,7 +52,7 @@ npm run build
 
 > 配置按需加载，element-plus 文档写的都很清楚
 
-> main.js 引入 element-plus
+> main.js 引入 element-plus 插件
 
 > 配置 element-plus 和 dayjs 为中文
 
