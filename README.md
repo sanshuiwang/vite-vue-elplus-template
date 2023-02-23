@@ -114,11 +114,11 @@ npm run build
 
 - [husky + lint-staged + commitlint](https://juejin.cn/post/7115327455707168798?from_wecom=1#heading-3)
 
-- 可以再添加 commitizen 完全控制整个 commitlint 流程，但是这里没有使用[commitizen](https://www.npmjs.com/package/commitizen)
+> 可以再添加 commitizen 完全控制整个 commitlint 流程，但是我这里没有使用[commitizen](https://www.npmjs.com/package/commitizen)，【非必需】
 
 - [commitizen + cz-conventional-changelog](https://blog.51cto.com/u_15127669/4553289)
 
-> [参考流程](https://www.jianshu.com/p/722ff8888657?from_wecom=1)
+> 参考流程：[https://www.jianshu.com/p/722ff8888657?from_wecom=1](https://www.jianshu.com/p/722ff8888657?from_wecom=1)
 
 ### 提交时 husky 的 commit 指令未执行
 
